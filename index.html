@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind and daisy Ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Native css -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Bus Ticket Landing Page</title>
+    
+
+</head>
+<body class="inter">
+
+<!-- Google Fonts class (inter raleway) -->
+
+    <!-- header area -->
+    <header class="w-4/5 m-auto raleway">
+        <!-- Navbar container -->
+        <section class="mt-5 mb-5">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-base">
+                      <li><a>Home</a></li>
+                      <li><a>About</a></li>
+                      <li>
+                        <a>Destination</a>
+                        <ul class="p-2">
+                          <li><a>Submenu 1</a></li>
+                          <li><a>Submenu 2</a></li>
+                        </ul>
+                      </li>
+                      <li><a>Search</a></li>
+                    </ul>
+                  </div>
+                  <h1 class="text-3xl font-bold">Bus Ticket</h1>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-base">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li>
+                      <details>
+                        <summary>Destination</summary>
+                        <ul class="p-2">
+                          <li><a>Submenu 1</a></li>
+                          <li><a>Submenu 2</a></li>
+                        </ul>
+                      </details>
+                    </li>
+                    <li><a>Search</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn text-green-400 bg-green-100 text-lg hover:bg-slate-100">Bus 
+                    <img src="images/bus-green.svg" alt="">
+                  </a>
+                </div>
+              </div>
+        </section>
+
+
+        <!-- Banner section -->
+        <section class="text-center">
+            <div class="bg-[url('images/banner.png')] bg-no-repeat bg-cover bg-center pt-20 pb-20 h-full rounded-3xl bgimg-height">
+              <h1 class="text-7xl text-white font-semibold">End-to-End Travel with</h1>
+              <h1 class="text-7xl text-green-500 font-semibold mt-5 mb-5">SN Paribahan</h1>
+              <p class="text-white text-base w-2/5 m-auto mb-6">Welcome to our online bus ticket counter, you can travel any where in our country with a comfortable experience</p>
+              <button class="btn bg-green-500 border-none text-base">Buy Tickets</button>
+            </div>
+        </section>
+    </header>
+
+    <main >
+      <!-- Best offer section -->
+      <section class="w-4/5 m-auto mt-24 mb-24">
+        <h2 class="text-center text-3xl font-bold">Best offers for you</h2>
+        <div class="flex justify-between mt-10">
+          <div id="offer-yellow" class="rounded-3xl w-5/12 bg-yellow-400 flex">
+            <div class="w-3/5 border-r-2 border-dashed p-10">
+              <h2 class="text-3xl font-extrabold">15% OFF</h2>
+              <p class="font-bold mt-1">on your next purchase</p>
+              <p class="text-sm mt-2">use by january 2024</p>
+            </div>
+            <div class="text-center items-center w-2/5 m-auto raleway">
+              <h2 class="text-2xl font-extrabold">NEW 15</h2>
+              <p>Coupon code</p>
+            </div>
+          </div>
+          <div id="offer-pink" class="w-5/12 bg-pink-400 flex rounded-3xl">
+            <div class="w-3/5 border-r-2 border-dashed p-10">
+              <h2 class="text-3xl font-extrabold">20% OFF</h2>
+              <p class="font-bold mt-1">on your next purchase</p>
+              <p class="text-sm mt-2">use by january 2024</p>
+            </div>
+            <div class="text-center items-center w-2/5 m-auto raleway">
+              <h2 class="text-2xl font-extrabold">Couple 20</h2>
+              <p>Coupon code</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <button class="btn btn-outline btn-success mt-10 text-base">See All Offers</button>
+        </div>
+      </section>
+
+
+      <!-- SN Paribhan section -->
+      <section class="bg-slate-100 pt-32 pb-32 bor-radius">
+        <div class="text-center">
+          <h2 class="text-3xl font-bold mb-7">SN Paribahan</h2>
+          <p class="w-2/5 m-auto">You can see here where you want to go, bus time schedule, which type bus is available and how much have to pay for par ticket.</p>
+        </div>
+
+        <div class="bg-white rounded-3xl w-4/5 m-auto mt-10 flex justify-between">
+          <div id="offer-yellow" class="p-8 w-2/3 border-r-2 border-dashed border-green-300">
+            <div class="flex justify-between">
+              <div class="flex">
+                <img src="images/bus-logo.png" alt="">
+                <div class="ml-6">
+                  <h3 class="text-2xl font-extrabold mb-2">Greenline Paribahan</h3>
+                  <p>Coach-009-WEB ! AC_Business</p>
+                </div>
+              </div>
+              <div>
+                <a class="btn text-green-400 bg-green-100 text-lg hover:bg-slate-100"><img src="images/seat-green.png" alt="">40 Seats left                
+                </a>
+              </div>
+            </div>
+  
+            <div class="bg-slate-100 rounded-3xl p-8 mt-6">
+              <div class="flex justify-between border-b-2 border-dashed border-slate-300 mb-4">
+                <p class="mb-4 text">Route</p>
+                <p class="mb-4">Dhaka-Sylhet</p>
+              </div>
+
+              <div class="flex justify-between border-b-2 border-dashed border-slate-300">
+                <p class="mb-4">Departure time</p>
+                <p class="mb-4">9:00 PM</p>
+              </div>
+
+              <div class="flex justify-between mt-6">
+                <div class="bg-slate-200 p-3 rounded-xl"><p>Boarding Point - Laxmipur</p></div>
+                <div class="bg-slate-200 p-3 rounded-xl"><p>Dropping Point - Bogura</p></div>
+                <div class="bg-slate-200 p-3 rounded-xl"><p>Est. Time - 11 Hours</p></div>
+              </div>
+            </div>
+  
+          </div>
+
+          <div class="w-1/3 text-center m-auto">
+            <div class="flex justify-center items-center mb-4">
+              <img src="images/taka.svg" alt="">
+            </div>
+            <h3 class="text-2xl font-extrabold raleway">750 Taka</h3>
+            <h4 class="text-lg mt-1">Per Seat</h4>
+          </div>
+        </div>
+      </section>
+
+    </main>
+</body>
+</html>
