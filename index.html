@@ -166,7 +166,7 @@
         </div>
 
         <!-- Seat area (hidden kora ase) -->
-        <div class="bg-white rounded-3xl w-4/5 m-auto mt-10 flex justify-between">
+        <div id="seat-area" class="bg-white rounded-3xl w-4/5 m-auto mt-10 flex justify-between">
           <!-- seat area left -->
           <div class="p-8 w-3/5 border-r-2 border-slate-400 border-dashed">
             <div class="flex justify-between border-b-2 border-dashed border-slate-300 mb-4">
@@ -331,7 +331,7 @@
         </div>
 
         <!-- Success message box -->
-        <section class="bg-slate-50 w-4/5 m-auto rounded-3xl mt-10 py-10 hidden">
+        <section onclick="closeMsg()" id="success-message" class="bg-slate-50 w-4/5 m-auto rounded-3xl mt-10 py-10 hidden">
           <div class="text-center w-2/5 m-auto bg-white rounded-3xl py-10">
             <div class="flex justify-center">
               <img src="images/success.png" alt="">
@@ -340,7 +340,7 @@
             <p class="font-bold">Thank you for booking our seats.</p>
             <p class="font-bold">We are working hard to find the best service and deals for you.</p>
             <p class="text-slate-500 mt-3">Shortly you will find a conformation in your email.</p>
-            <button class="bg-green-400 px-16 py-5 mt-5 rounded-3xl">Continue</button>
+            <button class="bg-green-400 px-16 py-5 mt-5 rounded-3xl">Close</button>
           </div>
         </section>
 
