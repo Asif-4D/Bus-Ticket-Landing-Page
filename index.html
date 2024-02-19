@@ -6,6 +6,7 @@
     <!-- Tailwind and daisy Ui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="active.js"></script>
     <!-- Native css -->
     <link rel="stylesheet" href="style.css">
 
@@ -20,7 +21,7 @@
     <!-- header area -->
     <header class="w-4/5 m-auto raleway">
         <!-- Navbar container -->
-        <section class="mt-5 mb-5">
+        <section class="mt-8 mb-8">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                   <div class="dropdown">
@@ -60,7 +61,7 @@
                 </div>
                 <div class="navbar-end">
                   <a class="btn text-green-400 bg-green-100 text-lg hover:bg-slate-100">Bus 
-                    <img src="images/bus-green.svg" alt="">
+                    <img src="images/bus-green.svg" alt="image">
                   </a>
                 </div>
               </div>
@@ -68,8 +69,8 @@
 
 
         <!-- Banner section -->
-        <section class="text-center">
-            <div class="bg-[url('images/banner.png')] bg-no-repeat bg-cover bg-center pt-20 pb-20 h-full rounded-3xl bgimg-height">
+        <section class="text-center bgimg-height">
+            <div class="bg-[url('images/banner.png')] bg-no-repeat bg-cover bg-center pt-20 pb-20 h-full rounded-3xl ">
               <h1 class="text-7xl text-white font-semibold">End-to-End Travel with</h1>
               <h1 class="text-7xl text-green-500 font-semibold mt-5 mb-5">SN Paribahan</h1>
               <p class="text-white text-base w-2/5 m-auto mb-6">Welcome to our online bus ticket counter, you can travel any where in our country with a comfortable experience</p>
@@ -164,7 +165,7 @@
           </div>
         </div>
 
-        <!-- Seat area -->
+        <!-- Seat area (hidden kora ase) -->
         <div class="bg-white rounded-3xl w-4/5 m-auto mt-10 flex justify-between">
           <!-- seat area left -->
           <div class="p-8 w-3/5 border-r-2 border-slate-400 border-dashed">
@@ -320,7 +321,7 @@
               </label>
             </div>
 
-            <button class="bg-green-400 w-full py-4 rounded-2xl mt-6">Next</button>
+            <button onclick="next()" class="bg-green-400 w-full py-4 rounded-2xl mt-6">Next</button>
 
             <div class="flex justify-between mt-3">
               <span class="underline underline-offset-2">Terms and Conditions</span>
@@ -328,6 +329,21 @@
             </div>
           </div>
         </div>
+
+        <!-- Success message box -->
+        <section class="bg-slate-50 w-4/5 m-auto rounded-3xl mt-10 py-10 hidden">
+          <div class="text-center w-2/5 m-auto bg-white rounded-3xl py-10">
+            <div class="flex justify-center">
+              <img src="images/success.png" alt="">
+            </div>
+            <h3 class="mt-5 text-2xl font-extrabold mb-3 text-green-600">Success</h3>
+            <p class="font-bold">Thank you for booking our seats.</p>
+            <p class="font-bold">We are working hard to find the best service and deals for you.</p>
+            <p class="text-slate-500 mt-3">Shortly you will find a conformation in your email.</p>
+            <button class="bg-green-400 px-16 py-5 mt-5 rounded-3xl">Continue</button>
+          </div>
+        </section>
+
 
       </section>
 
