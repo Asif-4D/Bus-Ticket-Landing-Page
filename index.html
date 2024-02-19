@@ -116,7 +116,7 @@
       <section class="bg-slate-100 pt-32 pb-32 bor-radius">
         <div class="text-center">
           <h2 class="text-3xl font-bold mb-7">SN Paribahan</h2>
-          <p class="w-2/5 m-auto">You can see here where you want to go, bus time schedule, which type bus is available and how much have to pay for par ticket.</p>
+          <p class="w-2/5 m-auto">You can see here where you want to go, bus time schedule, which type bus is available and how much have to pay for par seat.</p>
         </div>
 
         <div class="bg-white rounded-3xl w-4/5 m-auto mt-10 flex justify-between">
@@ -163,6 +163,160 @@
             <h4 class="text-lg mt-1">Per Seat</h4>
           </div>
         </div>
+
+        <!-- Seat area -->
+        <div class="bg-white rounded-3xl w-4/5 m-auto mt-10 flex justify-between">
+          <!-- seat area left -->
+          <div class="p-8 w-3/5 border-r-2 border-slate-400 border-dashed">
+            <div class="flex justify-between border-b-2 border-dashed border-slate-300 mb-4">
+              <h3 class="mb-4 text-xl font-extrabold">Select Your Seat</h3>
+            </div>
+
+            <div class="flex justify-between border-b-2 border-dashed border-slate-300">
+              <div class="flex">
+                <img class="mb-4" src="images/seat-gray.png" alt="">
+                <p class="mb-4 ml-1">Available</p>
+              </div>
+              <div class="flex">
+                <img id="seat-green" class="mb-4" src="images/seat-gray.png" alt="">
+                <p id="seat-selected" class="mb-4 ml-1">Selected</p>
+              </div>
+            </div>
+
+           <!-- seat plane -->
+           <div class="flex justify-end mt-5">
+            <div class="px-16 mb-5 rounded-xl py-4 bg-slate-200"><img src="images/steering.svg" alt=""></div>
+           </div>
+           <section class="flex justify-between">
+             <!-- seat plane left -->
+             <section class="grid grid-cols-12 gap-6">
+              <div class="col-span-2">
+                <div class="py-4 mb-5">A</div>
+                <div class="py-4 mb-5">B</div>
+                <div class="py-4 mb-5">C</div>
+                <div class="py-4 mb-5">D</div>
+                <div class="py-4 mb-5">E</div>
+                <div class="py-4 mb-5">F</div>
+                <div class="py-4 mb-5">G</div>
+                <div class="py-4 mb-5">H</div>
+                <div class="py-4 mb-5">I</div>
+                <div class="py-4 mb-5">J</div>
+              </div>
+
+              <div class="col-span-5">
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">A1</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">B1</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">C1</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">D1</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">E1</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">F1</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">G1</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">H1</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">I1</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">J1</div>
+              </div>
+
+              <div class="col-span-5">
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">A2</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">B2</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">C2</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">D2</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">E2</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">F2</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">G2</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">H2</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">I2</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">J2</div>
+              </div>
+            </section>
+
+            <!-- seat plane right -->
+
+            <section class="grid grid-cols-10 gap-6">
+              <div class="col-span-5">
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">A3</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">B3</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">C3</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">D3</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">E3</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">F3</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">G3</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">H3</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">I3</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">J3</div>
+              </div>
+
+              <div class="col-span-5">
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">A4</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">B4</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">C4</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">D4</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">E4</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">F4</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">G4</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">H4</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">I4</div>
+                <div class="px-16 mb-5 rounded-xl py-4 bg-slate-100">J4</div>
+              </div>
+            </section>
+
+           </section>
+          </div>
+
+          <!-- seat area right -->
+          <div class="w-2/5 p-8">
+            <div class="flex justify-between border-b-2 border-dashed border-slate-300 mb-4">
+              <h3 class="mb-4 text-xl font-extrabold">Payment & Passenger Information</h3>
+            </div>
+
+            <div class="bg-slate-100 ">
+              <div class="pb-4 flex justify-between border-b-2 border-slate-300 border-dashed">
+                <div id="seat-count">Seat</div>
+                <div>Class</div>
+                <div>Price</div>
+              </div>
+              <div class="pb-4 flex justify-between mt-4">
+                <div><span id="seat-num">0</span></div>
+                <div>Economy</div>
+                <div><span id="seat-price">0</span></div>
+              </div>
+              <div class="pb-4 flex justify-between border-b-2 border-slate-300">
+                <div><span id="seat-num">0</span></div>
+                <div>Economy</div>
+                <div><span id="seat-price">0</span></div>
+              </div>
+
+              <!-- total price -->
+              <div class="pb-4 flex justify-between mt-4">
+                <div><span>Total Price</span></div>
+                <div>
+                  <p>BDT <span id="total-price">0</span></p>
+                </div>
+              </div>
+
+              <!-- grand total -->
+              <div class="pb-4 flex justify-between mt-4">
+                <div><span>Grand Total</span></div>
+                <div>
+                  <p>BDT <span id="grand-total">0</span></p>
+                </div>
+              </div>          
+            </div>
+
+            <div>
+              <h3>Passenger Name*</h3>
+              <input type="text" placeholder="Name" class="input input-bordered w-full max-w-xs" />
+
+              <h3>Phone Number*</h3>
+              <input type="text" placeholder="Phone" class="input input-bordered w-full max-w-xs" />
+
+              <h3>Email ID</h3>    
+              <input type="email" placeholder="Email" class="input input-bordered w-full max-w-xs" />
+            </div>
+
+          </div>
+        </div>
+
       </section>
 
     </main>
